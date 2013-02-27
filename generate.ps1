@@ -1,0 +1,1 @@
+.\Generate-VsSettings.ps1 -type dark | Out-File -Encoding utf8 -FilePath solarized-dark.vssettings

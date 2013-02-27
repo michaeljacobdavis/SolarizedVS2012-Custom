@@ -62,6 +62,7 @@
               <Item Name="HTML Tag Delimiter" Foreground="$SecondaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Identifier" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Keyword" Foreground="$Green" Background="0x02000000" BoldFont="No"/>
+			  <Item Name="Knockout Region" Foreground="$PrimaryContent" Background="0x02000000" BoldFont="No"/>
               <Item Name="Memory Changed" Foreground="$Red" Background="0x02000000" BoldFont="No"/>
               <Item Name="Number" Foreground="$Yellow" Background="0x02000000" BoldFont="No"/>
               <Item Name="Operator" Foreground="$Blue" Background="0x02000000" BoldFont="No"/>
@@ -142,8 +143,8 @@
 <!--              <Item Name="ReSharper ASP.NET RunAt attribute" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper HTML ID attriute" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper HTML Entity" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper CSS id selector" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
-<!--              <Item Name="ReSharper CSS keyword" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
+              <!--<Item Name="ReSharper CSS id selector" Foreground="$Red" Background="0x01000001" BoldFont="No"/>-->
+              <Item Name="ReSharper CSS keyword" Foreground="$Red" Background="0x01000001" BoldFont="No"/>
 <!--              <Item Name="ReSharper CSS class selector" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper Highlight" Foreground="0x02000000" Background="0x00FACE87" BoldFont="No"/>-->
 <!--              <Item Name="ReSharper Highlight Marker on Error Stripe" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>-->
@@ -216,11 +217,11 @@
 							<Item Name="LessCssVariableAtClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
 							<Item Name="LessCssVariableDeclarationClassificationFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
 							<Item Name="LessCssVariableReferenceFormat" Foreground="$Violet" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssNamespaceReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssMixinDeclarationFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssMixinReferenceFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssNamespaceReferenceFormat" Foreground="$Magenta" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssMixinDeclarationFormat" Foreground="$Magenta" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssMixinReferenceFormat" Foreground="$Magenta" Background="$Background" BoldFont="No"/>
 							<Item Name="LessCssExpressionFormat" Foreground="$Cyan" Background="$Background" BoldFont="No"/>
-							<Item Name="LessCssAccessorFormat" Foreground="$Red" Background="$Background" BoldFont="No"/>
+							<Item Name="LessCssAccessorFormat" Foreground="$Magenta" Background="$Background" BoldFont="No"/>
 							<Item Name="LessCssKeywordFormat" Foreground="$Orange" Background="$Background" BoldFont="No"/>
 						</Items>
 					</Category>
